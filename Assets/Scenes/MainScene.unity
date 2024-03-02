@@ -2423,6 +2423,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9a962e2f6d78540ae87adcfa6aa396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: bf6498d3-f918-48d5-9120-d1f95a7a2047
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: a594eacc-aef4-41d0-b38c-792e968c220d
+      m_Path: <Keyboard>/a
+      m_Interactions: Press
+      m_Processors: Invert
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4a512c6d-37c5-4dff-a64b-f3de72b1b421
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 3bf6a014-ce7f-47b5-b98a-65ed10fdb020
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 
+      m_Id: d83f73a0-0760-4475-96ab-70fcefe9425d
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &1985265263
 GameObject:
   m_ObjectHideFlags: 0
